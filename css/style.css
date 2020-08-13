@@ -1,7 +1,15 @@
+h1{
+    font-size: 45px;
+}
+.ourMeals p{
+    font-size: 18px;
+    opacity: 0.9;
+}
 h5{
     font-family: 'Roboto', sans-serif;
     color: rgb(29, 26, 26);
     font-size: 23px;
+    font-weight: 600;
 }
 
 #divider{
@@ -19,12 +27,13 @@ h5{
 h6{
     color:rgb(136, 134, 134);
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .price1{
     padding-left: 67%;
 }
+
 .price2{
     padding-left: 73%;
 }
@@ -44,6 +53,7 @@ h6{
 .price6{
     padding-left: 56.5%;
 }
+
 .price7{
     padding-left: 70.5%;
 }
@@ -59,6 +69,13 @@ h6{
 .price10{
     padding-left: 77%;
 }
+
 span{
     color: rgb(97, 60, 33);
+}
+.modal-title{
+    margin-left: 32%;
+    margin-top: 30%;
+    font-size: 30px;
+    color: white;
 }

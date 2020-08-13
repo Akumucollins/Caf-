@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafe</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <section>
-        <div class="container-fluid">
+        <div class="container-fluid mt-5">
             <div class="ourMeals text-center">
                 <h1>Our Main Meals</h1>
                 <p>We serve delicious, affordable food that guests will want to return to <br>week after week</p>
@@ -20,38 +21,397 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div>
-                            <h5 id="divider">Cappuccino<span class="price1">$2</span></h5>
-                            <h6>Cafe, Glacê, Chocolate</h6>  
+                            <a data-toggle="modal" data-target="#myModal">
+                                <h5 id="divider">Cappuccino<span class="price1">$2</span></h5>
+                            </a>
+                            <h6>Cafe, Glacê, Chocolate</h6>
+                            <!-- The Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <!-- Modal Header -->
+                                        <div class="modal-header" style="background: url('./images/image_1.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;background: url('./images/image_1.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;height: 350px;">
+                                            <span class="modal-title text-center">Cappuccino <br> $2</span>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="modal-body-tags">
+                                                <span class="btn btn-outline-secondary btn-sm">Delicious</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Cafe</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Premium</span>
+                                            </div>
+                                            <div class="modal-body-content">Normal “American coffee” is brewed by mixing the grounds of roasted coffee beans with hot water, allowing the mixture to steep briefly, and then straining out the coffee grounds. This is an extremely simple process. “Regular coffee” usually means an 8 ounce cup of American coffee with a teaspoon of sugar, and a small amount of milk or cream mixed in.
+                                                <h4 class="nutrition-facts-title">Nutrition Facts</h4>
+                                                <div class="nutrition-facts">
+                                                    <div>Total Fat 4g 6%</div>
+                                                    <div>Sat. Fat 2g 10%</div>
+                                                    <div>Trans Fat 0g</div>
+                                                    <div>Cholesterol 10mg 3%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div>
-                            <h5 id="divider">Espresso<span class="price2">$4</span></h5>
-                            <h6>Cafe, Glacê, Chocolate</h6>                          </div>
-                        <div> 
-                            <h5 id="divider">Double Espresso<span class="price3">$5</span></h5>
-                            <h6>Cafe, Glacê, Chocolate</h6>                          </div>
+                            <a data-toggle="modal" data-target="#myModal">
+                                <h5 id="divider">Espresso<span class="price2">$4</span></h5>
+                            </a>
+                            <h6>Cafe, Glacê, Chocolate</h6>
+                            <!-- The Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <!-- Modal Header -->
+                                        <div class="modal-header" style="background: url('./images/image_2.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;background: url('./images/image_2.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;height: 350px;">
+                                            <span class="modal-title text-center">Espresso <br> $4</span>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="modal-body-tags">
+                                                <span class="btn btn-outline-secondary btn-sm">Delicious</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Cafe</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Premium</span>
+                                            </div>
+                                            <div class="modal-body-content">Normal “American coffee” is brewed by mixing the grounds of roasted coffee beans with hot water, allowing the mixture to steep briefly, and then straining out the coffee grounds. This is an extremely simple process. “Regular coffee” usually means an 8 ounce cup of American coffee with a teaspoon of sugar, and a small amount of milk or cream mixed in.
+                                                <h4 class="nutrition-facts-title">Nutrition Facts</h4>
+                                                <div class="nutrition-facts">
+                                                    <div>Total Fat 4g 6%</div>
+                                                    <div>Sat. Fat 2g 10%</div>
+                                                    <div>Trans Fat 0g</div>
+                                                    <div>Cholesterol 10mg 3%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div>
-                            <h5 id="divider">Ristretto<span class="price4">$10</span></h5>
-                            <h6>Cafe, Glacê, Chocolate</h6>                          </div>
+                            <a data-toggle="modal" data-target="#myModal">
+                                <h5 id="divider">Double Espresso<span class="price3">$5</span></h5>
+                            </a>
+                            <h6>Cafe, Glacê, Chocolate</h6>
+                            <!-- The Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <!-- Modal Header -->
+                                        <div class="modal-header" style="background: url('./images/image_3.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;background: url('./images/image_3.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;height: 350px;">
+                                            <span class="modal-title text-center">Double Espresso <br> $5</span>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="modal-body-tags">
+                                                <span class="btn btn-outline-secondary btn-sm">Delicious</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Cafe</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Premium</span>
+                                            </div>
+                                            <div class="modal-body-content">Normal “American coffee” is brewed by mixing the grounds of roasted coffee beans with hot water, allowing the mixture to steep briefly, and then straining out the coffee grounds. This is an extremely simple process. “Regular coffee” usually means an 8 ounce cup of American coffee with a teaspoon of sugar, and a small amount of milk or cream mixed in.
+                                                <h4 class="nutrition-facts-title">Nutrition Facts</h4>
+                                                <div class="nutrition-facts">
+                                                    <div>Total Fat 4g 6%</div>
+                                                    <div>Sat. Fat 2g 10%</div>
+                                                    <div>Trans Fat 0g</div>
+                                                    <div>Cholesterol 10mg 3%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div>
-                            <h5 id="divider">Long Macchiato<span class="price5">$8</span></h5>
-                            <h6>Cafe, Glacê, Chocolate</h6>                          </div>
+                            <a data-toggle="modal" data-target="#myModal">
+                                <h5 id="divider">Ristretto<span class="price4">$10</span></h5>
+                            </a>
+                            <h6>Cafe, Glacê, Chocolate</h6>
+                            <!-- The Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <!-- Modal Header -->
+                                        <div class="modal-header" style="background: url('./images/image_4.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;background: url('./images/image_4.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;height: 350px;">
+                                            <span class="modal-title text-center">Ristretto <br> $10</span>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="modal-body-tags">
+                                                <span class="btn btn-outline-secondary btn-sm">Delicious</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Cafe</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Premium</span>
+                                            </div>
+                                            <div class="modal-body-content">Normal “American coffee” is brewed by mixing the grounds of roasted coffee beans with hot water, allowing the mixture to steep briefly, and then straining out the coffee grounds. This is an extremely simple process. “Regular coffee” usually means an 8 ounce cup of American coffee with a teaspoon of sugar, and a small amount of milk or cream mixed in.
+                                                <h4 class="nutrition-facts-title">Nutrition Facts</h4>
+                                                <div class="nutrition-facts">
+                                                    <div>Total Fat 4g 6%</div>
+                                                    <div>Sat. Fat 2g 10%</div>
+                                                    <div>Trans Fat 0g</div>
+                                                    <div>Cholesterol 10mg 3%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a data-toggle="modal" data-target="#myModal">
+                                <h5 id="divider">Long Macchiato<span class="price5">$8</span></h5>
+                            </a>
+                            <h6>Cafe, Glacê, Chocolate</h6>
+                            <!-- The Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <!-- Modal Header -->
+                                        <div class="modal-header" style="background: url('./images/image_5.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;background: url('./images/image_5.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;height: 350px;">
+                                            <span class="modal-title text-center">Long Macchiato <br> $8</span>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="modal-body-tags">
+                                                <span class="btn btn-outline-secondary btn-sm">Delicious</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Cafe</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Premium</span>
+                                            </div>
+                                            <div class="modal-body-content">Normal “American coffee” is brewed by mixing the grounds of roasted coffee beans with hot water, allowing the mixture to steep briefly, and then straining out the coffee grounds. This is an extremely simple process. “Regular coffee” usually means an 8 ounce cup of American coffee with a teaspoon of sugar, and a small amount of milk or cream mixed in.
+                                                <h4 class="nutrition-facts-title">Nutrition Facts</h4>
+                                                <div class="nutrition-facts">
+                                                    <div>Total Fat 4g 6%</div>
+                                                    <div>Sat. Fat 2g 10%</div>
+                                                    <div>Trans Fat 0g</div>
+                                                    <div>Cholesterol 10mg 3%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <div>
-                            <h5 id="divider">American Coffee<span class="price6">$3</span></h5>
-                            <h6>Cafe, Glacê, Chocolate</h6>                          </div>
+                            <a data-toggle="modal" data-target="#myModal">
+                                <h5 id="divider">American Coffee<span class="price6">$3</span></h5>
+                            </a>
+                            <h6>Cafe, Glacê, Chocolate</h6>
+                            <!-- The Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <!-- Modal Header -->
+                                        <div class="modal-header" style="background: url('./images/image_6.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;background: url('./images/image_6.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;height: 350px;">
+                                            <span class="modal-title text-center">American Coffee <br> $3</span>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="modal-body-tags">
+                                                <span class="btn btn-outline-secondary btn-sm">Delicious</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Cafe</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Premium</span>
+                                            </div>
+                                            <div class="modal-body-content">Normal “American coffee” is brewed by mixing the grounds of roasted coffee beans with hot water, allowing the mixture to steep briefly, and then straining out the coffee grounds. This is an extremely simple process. “Regular coffee” usually means an 8 ounce cup of American coffee with a teaspoon of sugar, and a small amount of milk or cream mixed in.
+                                                <h4 class="nutrition-facts-title">Nutrition Facts</h4>
+                                                <div class="nutrition-facts">
+                                                    <div>Total Fat 4g 6%</div>
+                                                    <div>Sat. Fat 2g 10%</div>
+                                                    <div>Trans Fat 0g</div>
+                                                    <div>Cholesterol 10mg 3%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div>
-                            <h5 id="divider">Café Latte<span class="price7">$5</span></h5>
-                            <h6>Cafe, Glacê, Chocolate</h6>                          </div>
+                            <a data-toggle="modal" data-target="#myModal">
+                                 <h5 id="divider">Café Latte<span class="price7">$5</span></h5>
+                            </a>
+                            <h6>Cafe, Glacê, Chocolate</h6>
+                            <!-- The Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <!-- Modal Header -->
+                                        <div class="modal-header" style="background: url('./images/image_7.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;background: url('./images/image_7.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;height: 350px;">
+                                            <span class="modal-title text-center">Café Latte <br> $5</span>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="modal-body-tags">
+                                                <span class="btn btn-outline-secondary btn-sm">Delicious</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Cafe</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Premium</span>
+                                            </div>
+                                            <div class="modal-body-content">Normal “American coffee” is brewed by mixing the grounds of roasted coffee beans with hot water, allowing the mixture to steep briefly, and then straining out the coffee grounds. This is an extremely simple process. “Regular coffee” usually means an 8 ounce cup of American coffee with a teaspoon of sugar, and a small amount of milk or cream mixed in.
+                                                <h4 class="nutrition-facts-title">Nutrition Facts</h4>
+                                                <div class="nutrition-facts">
+                                                    <div>Total Fat 4g 6%</div>
+                                                    <div>Sat. Fat 2g 10%</div>
+                                                    <div>Trans Fat 0g</div>
+                                                    <div>Cholesterol 10mg 3%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div>
-                            <h5 id="divider">Long Black<span class="price8">$8</span></h5>
-                            <h6>Cafe, Glacê, Chocolate</h6>                          </div>
+                            <a data-toggle="modal" data-target="#myModal">
+                                <h5 id="divider">Long Black<span class="price8">$8</span></h5>
+                            </a>
+                            <h6>Cafe, Glacê, Chocolate</h6>
+                            <!-- The Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <!-- Modal Header -->
+                                        <div class="modal-header" style="background: url('./images/image_8.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;background: url('./images/image_8.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;height: 350px;">
+                                            <span class="modal-title text-center">Long Black <br> $8</span>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="modal-body-tags">
+                                                <span class="btn btn-outline-secondary btn-sm">Delicious</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Cafe</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Premium</span>
+                                            </div>
+                                            <div class="modal-body-content">Normal “American coffee” is brewed by mixing the grounds of roasted coffee beans with hot water, allowing the mixture to steep briefly, and then straining out the coffee grounds. This is an extremely simple process. “Regular coffee” usually means an 8 ounce cup of American coffee with a teaspoon of sugar, and a small amount of milk or cream mixed in.
+                                                <h4 class="nutrition-facts-title">Nutrition Facts</h4>
+                                                <div class="nutrition-facts">
+                                                    <div>Total Fat 4g 6%</div>
+                                                    <div>Sat. Fat 2g 10%</div>
+                                                    <div>Trans Fat 0g</div>
+                                                    <div>Cholesterol 10mg 3%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div>
-                            <h5 id="divider">Short Macchiato<span class="price9">$7</span></h5>
-                            <h6>Cafe, Glacê, Chocolate</h6>                          </div>
+                            <a data-toggle="modal" data-target="#myModal">
+                                <h5 id="divider">Short Macchiato<span class="price9">$7</span></h5>
+                            </a>
+                            <h6>Cafe, Glacê, Chocolate</h6>
+                            <!-- The Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <!-- Modal Header -->
+                                        <div class="modal-header" style="background: url('./images/image_9.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;background: url('./images/image_9.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;height: 350px;">
+                                            <span class="modal-title text-center">Cappuccino <br> $2</span>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="modal-body-tags">
+                                                <span class="btn btn-outline-secondary btn-sm">Delicious</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Cafe</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Premium</span>
+                                            </div>
+                                            <div class="modal-body-content">Normal “American coffee” is brewed by mixing the grounds of roasted coffee beans with hot water, allowing the mixture to steep briefly, and then straining out the coffee grounds. This is an extremely simple process. “Regular coffee” usually means an 8 ounce cup of American coffee with a teaspoon of sugar, and a small amount of milk or cream mixed in.
+                                                <h4 class="nutrition-facts-title">Nutrition Facts</h4>
+                                                <div class="nutrition-facts">
+                                                    <div>Total Fat 4g 6%</div>
+                                                    <div>Sat. Fat 2g 10%</div>
+                                                    <div>Trans Fat 0g</div>
+                                                    <div>Cholesterol 10mg 3%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div>
-                            <h5 id="divider">Mocha<span class="price10">$6</span></h5>
-                            <h6>Cafe, Glacê, Chocolate</h6>                          </div>
+                            <a data-toggle="modal" data-target="#myModal">
+                                <h5 id="divider">Mocha<span class="price10">$6</span></h5>
+                            </a>
+                            <h6>Cafe, Glacê, Chocolate</h6>
+                            <!-- The Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <!-- Modal Header -->
+                                        <div class="modal-header" style="background: url('./images/image_10.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;background: url('./images/image_10.jpg') no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;height: 350px;">
+                                            <span class="modal-title text-center">Mocha <br> $2</span>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="modal-body-tags">
+                                                <span class="btn btn-outline-secondary btn-sm">Delicious</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Cafe</span>
+                                                <span class="btn btn-outline-secondary btn-sm">Premium</span>
+                                            </div>
+                                            <div class="modal-body-content">Normal “American coffee” is brewed by mixing the grounds of roasted coffee beans with hot water, allowing the mixture to steep briefly, and then straining out the coffee grounds. This is an extremely simple process. “Regular coffee” usually means an 8 ounce cup of American coffee with a teaspoon of sugar, and a small amount of milk or cream mixed in.
+                                                <h4 class="nutrition-facts-title">Nutrition Facts</h4>
+                                                <div class="nutrition-facts">
+                                                    <div>Total Fat 4g 6%</div>
+                                                    <div>Sat. Fat 2g 10%</div>
+                                                    <div>Trans Fat 0g</div>
+                                                    <div>Cholesterol 10mg 3%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -61,7 +421,8 @@
 
 
     <script src="js/jQuery.js"></script>
-    <script src="js/materialize.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>

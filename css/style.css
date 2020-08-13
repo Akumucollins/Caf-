@@ -1,0 +1,64 @@
+h5{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(29, 26, 26);
+    font-size: 23px;
+}
+
+#divider{
+    padding-bottom: 5px;
+    content:"";
+    vertical-align:bottom;
+    display:inline-block;
+    width:90%;
+    border-bottom:1.4px dotted #ccc;
+    margin:8px auto;
+    overflow:hidden;
+    line-height:1.2em;
+}
+
+h6{
+    color:rgb(136, 134, 134);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.price1{
+    padding-left: 67%;
+}
+.price2{
+    padding-left: 73%;
+}
+
+.price3{
+    padding-left: 56%;
+}
+
+.price4{
+    padding-left: 72%;
+}
+
+.price5{
+    padding-left: 58%;
+}
+
+.price6{
+    padding-left: 56.5%;
+}
+.price7{
+    padding-left: 70.5%;
+}
+
+.price8{
+    padding-left: 69%;
+}
+
+.price9{
+    padding-left: 57%;
+}
+
+.price10{
+    padding-left: 77%;
+}
+span{
+    color: rgb(97, 60, 33);
+}
